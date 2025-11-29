@@ -17,10 +17,18 @@ Developed by the author of this PWA Store.
 
 ## 📂 Project Structure
 
-pwa-wasm-example/ ├── index.html # Main entry page ├── app.js # WASM loader ├── sw.js # Service worker logic ├── sw-register.js # Service worker registration ├── hello.wasm # Compiled WebAssembly binary ├── style.css # Stylesheet ├── manifest.webmanifest # PWA manifest └── icon.webp # App icon
-
-Code
-
+pwa-wasm-example/
+├── index.html # Main entry page
+├── app.js # WASM loader
+├── sw.js # Service worker logic
+├── sw-register.js # Service worker registration
+├── hello.wasm # Compiled WebAssembly binary
+├── style.css # Stylesheet
+├── manifest.webmanifest # PWA manifest
+├── icon.webp # App icon
+└── cpp/
+    ├── CMakeLists.txt         # Minimal CMake for WASM build and install
+    └── hello.cpp              # C++ source exporting HTML via pointer + length
 ---
 
 ## 🚀 Getting Started
