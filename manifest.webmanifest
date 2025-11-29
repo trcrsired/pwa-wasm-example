@@ -1,0 +1,17 @@
+{
+  "name": "WASM Hello Demo",
+  "short_name": "Hello WASM",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "description": "A minimal Progressive Web App that loads a WebAssembly module compiled from C++ and displays Hello World.",
+  "icons": [
+    {
+      "src": "icon.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
