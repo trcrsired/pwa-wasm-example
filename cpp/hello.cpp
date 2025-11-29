@@ -32,7 +32,7 @@ extern "C"
     }
 
     [[__gnu__::__visibility__("default")]]
-    std::size_t get_html_len() noexcept {
+    ::std::size_t get_html_len() noexcept {
         return sizeof(html_str) - 1; // exclude null terminator
     }
 }
