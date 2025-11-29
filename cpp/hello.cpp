@@ -5,7 +5,7 @@ namespace
 // Embed HTML using a UTF-8 raw string literal with char8_t
 inline constexpr char8_t html_str[] = u8R"(
 <section>
-  <h1>WASM Hello Demo</h1>
+  <h1>PWA WASM Example</h1>
   <p>This DOM fragment is generated from C++ using <code>char8_t</code> and a raw string literal.</p>
   <ul>
     <li>Fast</li>

@@ -1,6 +1,6 @@
 {
-  "name": "WASM Hello Demo",
-  "short_name": "Hello WASM",
+  "name": "PWA WASM Example",
+  "short_name": "PWA WASM",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
