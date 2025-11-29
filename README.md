@@ -16,7 +16,7 @@ Developed by the author of this PWA Store.
 ---
 
 ## 📂 Project Structure
-
+```
 pwa-wasm-example/
 ├── index.html # Main entry page
 ├── app.js # WASM loader
@@ -29,7 +29,7 @@ pwa-wasm-example/
 └── cpp/
     ├── CMakeLists.txt         # Minimal CMake for WASM build and install
     └── hello.cpp              # C++ source exporting HTML via pointer + length
----
+```
 
 ## 🚀 Getting Started
 
@@ -52,10 +52,12 @@ This project requires only **CMake** and the custom LLVM toolchain provided here
 
 1. Download and extract `wasm-sysroots.tar.xz` into your toolchain directory.
 
-   Example layout:
+```
 ${YOUR_WASM_SYSROOT_INSTALL_PATH}/wasm-sysroots/
+    ├─ builtins/
     └── wasm-noeh-sysroot/
-    └── wasm32-wasip1/
+        └── wasm32-wasip1/
+```
 
 ${YOUR_CLONED_PWA_WASM_EXAMPLE_PATH}/pwa-wasm-example/
 
