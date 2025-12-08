@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "PWA WASM Example",
   "short_name": "PWA WASM",
   "start_url": "/",
